@@ -1,0 +1,26 @@
+package com.asus.dao;
+
+import com.mongodb.BasicDBObject;
+import com.mongodb.DBCollection;
+import com.mongodb.DBObject;
+import com.mongodb.MongoClient;
+import com.mongodb.client.MongoDatabase;
+
+public class EmployeeDao {
+       
+	   MongoClient mongo = new MongoClient("localhost", 27017);
+       MongoDatabase database = mongo.getDatabase("local");
+       DBCollection collection = db.getCollection("Employee");
+	
+       public void insertValues() {
+		
+		DBObject document1 = new BasicDBObject();
+		document1.put("employee_id", 11);
+		document1.put("employee_name", "Raj");
+		document1.put("employee_salary", 100.02);
+		
+		collection.insert(document1);
+
+	}
+
+}

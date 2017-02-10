@@ -1,0 +1,17 @@
+package com.asus.controller;
+
+import com.asus.dao.EmployeeDao;
+import com.asus.model.*;
+
+public class EmployeeController {
+
+	public static void main(String[] args) {
+		
+		EmployeeDao empdao = new EmployeeDao();
+		empdao.insertValues();
+		
+		
+		
+	}
+	
+}
