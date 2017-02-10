@@ -1,0 +1,21 @@
+package com.asus.controller;
+
+import com.asus.dao.EmployeeDao;
+import com.asus.model.Employee;
+
+public class EmployeeController {
+
+	public static void main(String[] args) {
+		Employee emp = new Employee();
+		emp.setEmployee_id(123);
+		emp.setEmployee_name("Raj");
+		emp.setEmployee_salary(1200);
+		
+		EmployeeDao empdao = new EmployeeDao();
+		//empdao.insertValues(emp);
+		System.out.println("Values are inserted");
+		
+		empdao.getEmployeeValuesForSingleRecord(emp.getEmployee_id());
+		
+	}
+}
