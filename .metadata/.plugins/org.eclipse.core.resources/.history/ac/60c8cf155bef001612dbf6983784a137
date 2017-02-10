@@ -1,0 +1,5 @@
+package com.asus.dao;
+
+public class EmployeeDao {
+
+}

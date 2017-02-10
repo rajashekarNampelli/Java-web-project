@@ -1,0 +1,10 @@
+package com.asus.dao;
+
+import com.mongodb.*;
+
+public class EmployeeDao {
+
+	MongoClient mongo = new MongoClient("localhost", 27017);
+	DB db = mongo.getDB("journaldev");
+	
+}

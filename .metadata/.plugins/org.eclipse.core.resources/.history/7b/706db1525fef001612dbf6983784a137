@@ -1,0 +1,11 @@
+package javaMongo.javaMongo;
+
+import com.mongodb.MongoClient;
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	MongoClient 
+        System.out.println( "Hello World!" );
+    }
+}
