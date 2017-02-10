@@ -1,0 +1,9 @@
+Git branch
+
+git checkout BR-1
+
+git pull
+
+git status
+
+git add .
