@@ -1,0 +1,16 @@
+package com.asus.controller;
+
+import com.asus.model.*;
+
+public class EmployeeController {
+
+	public static void main(String[] args) {
+		
+		Employee emp = new Employee();
+		emp.setEmployee_id(123);
+		emp.setEmployee_name("Raj");
+		emp.setEmployee_salary(100.00);
+		
+	}
+	
+}

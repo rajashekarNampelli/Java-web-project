@@ -1,0 +1,10 @@
+package com.asus.dao;
+
+public class EmployeeDao {
+public static void main(String[] args) {
+	MongoClient  mongo = new MongoClient("localhost", 27017);
+	
+}
+	
+	
+}
