@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.asus.model.Employee"/>
 <fullyQualifiedTypeName name="com.mongodb.MongoClient"/>
+<fullyQualifiedTypeName name="com.mongodb.client.MongoDatabase"/>
+<fullyQualifiedTypeName name="com.asus.dao.EmployeeDao"/>
+<fullyQualifiedTypeName name="com.asus.model.Employee"/>
 </qualifiedTypeNameHistroy>
