@@ -14,6 +14,7 @@ public class EmployeeController {
 		EmployeeDao empdao = new EmployeeDao();
 		empdao.insertValues(emp);
 		System.out.println("Values are inserted");
+		
 		empdao.getEmployeeValuesForSingleRecord(emp.getEmployee_id());
 	}
 }
