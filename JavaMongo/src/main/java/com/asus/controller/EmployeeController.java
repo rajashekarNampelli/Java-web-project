@@ -10,6 +10,8 @@ public class EmployeeController {
 		emp.setEmployee_id(123);
 		emp.setEmployee_name("Raj");
 		emp.setEmployee_salary(1200);
+		System.out.println();
+
 		
 		EmployeeDao empdao = new EmployeeDao();
 		empdao.insertValues(emp);
